@@ -2,8 +2,10 @@
 
 # import the data
 get_data <- function(){
-  data <- read.csv(file = "data/houseelf_earlength_dna_data.csv")
+  data <- read.csv(file = "data/houseelf_earlength_dna_data1.csv")
   return(data)
 }
 
 data <-get_data()
+
+
